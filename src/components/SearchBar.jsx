@@ -4,7 +4,9 @@ export default function SearchBar({children}){
 
 return(
     <>
+    <div className="nav">
       {children}
+    </div>
     </> 
     )
 }

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import "./App.css"
 import SearchBar from './components/SearchBar';
 import Table from './components/Table'
 import getPeople from './utils/getPeople'

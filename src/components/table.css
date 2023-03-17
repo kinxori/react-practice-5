@@ -1,20 +1,32 @@
 *{
     font-family: sans-serif;
+    margin:0;
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);   
+    text-align: center;
+
+}
+
+.grid h3{
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom:2px solid darkgrey ;
+    padding-top:30px ;
 }
 
 p{
-    margin:0;
+    margin-top:0px;
+    font-size: 16px;
 }
 
 .odd{
-    background-color: lightblue;
     padding: 16px 8px;
 }
 .even{
-    background-color: lightgoldenrodyellow;
     padding: 16px 8px;
+    background-color: hsl(0, 0%, 93%);
 }

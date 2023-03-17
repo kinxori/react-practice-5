@@ -1,16 +1,21 @@
 *{
     font-size: 24px;
+    margin: 0px;
 }
+
+.nav{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    
+}
+
 .searchBar {
     display: flex;
-    margin: 10px;
     width: 500px;
-    height: 30px;
-    justify-content: center;
     align-items: center;
     gap:5%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
-
