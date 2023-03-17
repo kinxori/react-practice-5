@@ -1,6 +1,9 @@
+*{
+    font-family: sans-serif;
+}
 .grid{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);   
 }
 
 p{
