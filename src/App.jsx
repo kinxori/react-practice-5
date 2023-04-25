@@ -37,7 +37,7 @@ const handleSearch = (string)=>{
             <i className="fa-solid fa-magnifying-glass"></i> 
           </button>
         </div>
-        <span>Resultados: {showTable.length}</span>
+        <span>Results: {showTable.length}</span>
       </div>
     </SearchBar>
 
